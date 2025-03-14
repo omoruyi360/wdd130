@@ -13,10 +13,37 @@ h1 {
 img {
  width: 150px;
  height: auto;
- border: 1px solid black;
+ border: 1px solid rgb(248, 237, 237);
  padding: 2px;
  box-shadow: 0 0 30px gray;
 }
 p {
  padding: 10px;
+}
+main {
+ max-width: 840px;
+}
+aside {
+ width: 20px;
+ margin:1rem ;
+ border:1px solid rgb(0 0 0 / 0.2 );/* 1️⃣  */
+ padding:1rem ;
+ border:  #eee; 
+ color: #333;
+ text-align: center;
+}
+aside img {
+ width: 200;
+ height: auto;
+}
+main img {
+ width: 150px;
+ height: auto;
+  
+}
+p { padding: 0;}
+footer {
+ margin: 15px;
+ border-top: 1px solid #333;
+ text-align: center;
 }
