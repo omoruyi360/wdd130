@@ -4,6 +4,12 @@
     --accent1-color:#693655 ;
     --accent2-color:#9C363A ;
 }
+.flex div{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+}
 h1, h2, h3, p{
     font: bold;
     font-size: larger;
@@ -66,4 +72,3 @@ footer {
     clear: both;
     background-color:#61365A;
 }
-    
