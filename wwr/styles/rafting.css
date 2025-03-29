@@ -4,12 +4,15 @@
     --accent1-color:#693655 ;
     --accent2-color:#9C363A ;
 }
-.flex div{
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    flex-direction: column;
+.grid div{
+    display: grid;
+    grid-template-columns:repeat(5,100px);
+    grid-template-rows:100px;
 }
+.flex img{
+    justify-content: flex-start;
+}
+
 h1, h2, h3, p{
     font: bold;
     font-size: larger;
@@ -17,10 +20,7 @@ h1, h2, h3, p{
     text-align: center;
     color:navy;
 }
-.social-link a img{
-    text-decoration:none;
-    width: 30px;
-}
+
 
 body{
     margin: 0 auto;
@@ -62,12 +62,65 @@ body{
     color: #61365A;
     font-size: 20px;
 }
-.image img{
-    display: block;
+
+.nav{
+    display: flex;
+    align-items: center;
 }
+
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+.navigations{
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navigations a{
+    text-decoration: none;
+}
+
+.adventure{
+    margin: 2rem 0;
+    background-color: #55555533;
+}
+
+.adventure-img-wrapper{
+    height: 250px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: 1fr;
+    column-gap: .5rem;
+}
+
+.adventure-img{
+    grid-column: span 1;
+    background-color: #9C363A;
+}
+
+.fit-img{
+    width: 100%;
+    height: 100%;
+}
+
 footer {
 	border-top: 1px solid #555;
 	padding-top: 5px;
     clear: both;
-    background-color:#61365A;
+    background-color:#61365a5d;
+}
+
+.social-link{
+    display: flex;
+    justify-content: center;
+}
+
+.social-link a img{
+    text-decoration:none;
+    width: 30px;
+    padding: 0 .5rem;
 }
