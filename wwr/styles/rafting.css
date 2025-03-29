@@ -59,8 +59,7 @@ body{
     float: right;
 }
 .hero article p{
-    color:var(--accent1-color);
-    font-family: var(paragraph-font);
+    color: #61365A;
     font-size: 20px;
 }
 .image img{
