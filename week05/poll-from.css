@@ -1,0 +1,31 @@
+h1{
+    color: blue;
+}
+
+body{
+    margin: 0 auto;
+    width: 60rem;
+    height: 40rem;
+    b
+}
+.flex1{
+    display: flex;
+    justify-content:center;
+}
+.flex2{
+    display:grid;
+    grid-template-columns: 1;
+    grid-template-rows: 2; 
+    
+}
+
+.button{
+    display:flex;
+    justify-content: center;
+    padding: 20px;
+}
+div{
+    color: blue;
+    
+}
+ 

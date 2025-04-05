@@ -12,6 +12,9 @@
 .flex img{
     justify-content: flex-start;
 }
+header{
+    background-color: #3111e741;
+}
 
 h1, h2, h3, p{
     font: bold;
@@ -72,7 +75,9 @@ body{
     width: 20%;
     display: flex;
     justify-content: center;
+    
 }
+
 .navigations{
     width: 80%;
     display: flex;
@@ -123,4 +128,109 @@ footer {
     text-decoration:none;
     width: 30px;
     padding: 0 .5rem;
+}
+/* this is for the contact us page */
+button{
+    margin: 48px #3111e7;
+    padding: 0.5rem;
+    margin: 1rem;
+    width: 10rem;
+    height: 1rem, 1rem;
+}
+.contact-info{
+    display: grid;
+    grid-template-columns: auto;
+    font: 1em sans-serif;
+    font-size: larger;
+}
+
+.form-submit{
+    background-color:blue ;
+    font-size:larger;
+    font:bold;
+    text-align: center;
+}
+.submit{
+    display: flex;
+    justify-content: center;
+}
+
+.map-title{
+    display: flex;
+    justify-content: center;
+}
+.map-p-sub-container{
+    display: flex;
+    justify-content: flex-start;
+    height: 10rem;
+    width: 100%; 
+    border: 1px solid #03020a59;
+}
+.fit-map-container{
+    width: 100%;
+    height: 100%;
+    background-color: #693655;
+    border: 1px solid #02010c38;
+}
+.map-p-wrapper{
+    height: 20rem;
+    background-color: #4729f13a;
+    border: 1px solid #0000006e;
+}
+.img-wrapper{
+    height:50%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 1fr;
+    column-gap: .5rem;
+    padding-top:2rem ; 
+    padding-bottom: 2rem;
+    background-color: #3111e733;
+}
+    
+    /* display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    background-color: #3111e73f;
+    border: 2rem solid #0000;
+    padding-top: 2rem;
+    column-gap: 2rem;
+}*/
+.img-container{
+grid-column: span 1;
+background-color: #9C363A;
+width: 100%;
+height:100%;
+}
+
+.fit-img-container{
+width: 100%;
+height: 100%;
+}
+
+.full-name-box{
+    width: 20%;
+}
+
+.email-box{
+    width: 20%;
+}
+.textarea{
+    width:100%;
+}
+.legend{
+    font: 1em sans-serif;
+    font-size: larger;
+}
+.messege-font{
+    font: 1em sans-serif;
+    font-size: larger;
+}
+.sub-font{
+    font: 1em sans-serif;
+    font-size: larger;
+}
+.sub-checkbox{
+
 }

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD130| HTML FORM USER-POLL</title>
+    <link rel="stylesheet" href="/week05/poll-from.css">
+</head>
+<body>
+    <header class="flex1">
+        <H1>WDD130 | Eriamiatoe Omoruyi | HTML FORM USER-poll</H1>
+    </header>
+    <main>
+        <Form>
+            <Fieldset class="flex2">
+                <Legend>Contact information</Legend>
+                <!-- form element will go here -->
+                 <label >FULL NAME:<input type="text" name="FULL NAME"></label><br>
+                 <label>EMAIL:<input type="email" name="EMAIL"></label>
+                 <!-- the following code line below will work just like the first but the first is more simplier -->
+                 <!-- <label for="fullname">Full Name:</label><br> -->
+                 <!-- <input type="text" id="fullname"name="fullname"><br> -->
+                 <!-- <label for="useremail">Email Address</label><br> -->
+                 <!-- <input type="email" id="useremail"name="useremail"><br> -->
+            </Fieldset>
+            <fieldset>
+                <legend>question</legend>
+                 <!-- form element will go here -->
+                <label for="brower">What is your favorite brower:</label><br>
+                <select name="brower" id="brower">
+                    <option value="chrome">chrome</option>
+                    <option value="edge">edge</option>
+                    <option value="safari">safari</option>
+                </select><br>
+                <label for="pet">Do you have a household pet:</label><br>
+                <input type="checkbox" id="pet" name="pet"><br>
+                <label for="feedback">List the places you have lived:</label>
+                <textarea name="feedback" id="feedback" rows="4" placeholder="Nigeria, ghana, Benin,"> </textarea>
+            </fieldset>
+            <div class="button" >
+            <button type="submit">submit poll</button>
+            </div>
+        </Form>
+
+    </main>
+    <footer>
+        <P>©2025| HTML FORM USER-POLL  ACTIVITY | Eriamiatoe Omoruyi</P>
+    </footer>
+    
+</body>
+</html>
