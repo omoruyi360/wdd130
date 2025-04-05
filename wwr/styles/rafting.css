@@ -129,11 +129,11 @@ footer {
 }
 /* this is for the contact us page */
 button{
-    margin: 48px #3111e7;
+    margin:0 auto;
     padding: 0.5rem;
     margin: 1rem;
     width: 10rem;
-    height: 1rem, 1rem;
+    height: 1rem;
 }
 .contact-info{
     display: grid;
@@ -220,7 +220,4 @@ height: 100%;
 .sub-font{
     font: 1em sans-serif;
     font-size: larger;
-}
-.sub-checkbox{
-
 }
