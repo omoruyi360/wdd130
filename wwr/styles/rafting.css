@@ -129,7 +129,6 @@ footer {
 }
 /* this is for the contact us page */
 button{
-    margin:0 auto;
     padding: 0.5rem;
     margin: 1rem;
     width: 10rem;
@@ -143,9 +142,9 @@ button{
 }
 
 .form-submit{
-    background-color:rgba(0, 0, 255, 0.582) ;
+    background-color:rgba(10, 21, 179, 0.842) ;
     font-size:larger;
-    font:bold;
+    font-weight: 200px;
     text-align: center;
 }
 .submit{
