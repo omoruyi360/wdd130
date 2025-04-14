@@ -1,4 +1,4 @@
-:root {
+:root { 
     --primary-color:#58355E;
     --secondary-color:#61365A;
     --accent1-color:#693655 ;
@@ -16,15 +16,18 @@
 
 h1, h2, h3, p{
     font-weight: bold;
-    font-size: larger;
+    font-size: large;
     margin-bottom:20px ;
     text-align: center;
-    color:navy;
+    color:rgba(0, 0, 0, 0.815);
+    font-family: sans-serif;
 }
 
 
 body{
     margin: 0 auto;
+    background-color: rgba(0, 0, 255, 0.089); 
+    
 }
 .hero {
     position: relative;
@@ -128,7 +131,7 @@ footer {
     padding: 0 .5rem;
 }
 /* this is for the contact us page */
-button{
+button{ 
     padding: 0.5rem;
     margin: 1rem;
     width: 10rem;
@@ -142,7 +145,7 @@ button{
 }
 
 .form-submit{
-    background-color:rgba(72, 47, 184, 0.473) ;
+    background-color:rgba(49, 14, 207, 0.808) ;
     font-size:larger;
     font-weight: 200px;
     text-align: center;
@@ -219,4 +222,188 @@ height: 100%;
 .sub-font{
     font: 1em sans-serif;
     font-size: larger;
+}
+/* this is for the index page */
+.index-hero-image{ 
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-color:rgba(0, 0, 255, 0.384);
+    padding-bottom: 2rem;
+}
+.index-h1{
+    position: absolute;
+    font-weight: bolder;
+    top: 20rem;
+    right: 0.1rem;
+    background-color:rgba(213, 213, 226, 0.384);
+    color: #000;
+    width: 100%;
+    padding: 1rem;
+}
+.index-p{
+    position: absolute;
+    top: 25rem;
+    color: #000;
+    background-color: rgba(213, 213, 226, 0.384);
+    right: 0.1rem;
+    width: 100%;
+    padding: 1rem;
+}
+.index-form{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    
+}
+
+.index-label{
+    right: 300rem;
+
+}
+.index-fieldset{
+    right: 200rem;
+    width: 20rem;
+    /* padding-left:15rem;
+    padding-right: 9rem; */
+    font-weight: bold;
+    padding: 20px;
+    padding-right: 3rem;
+    padding-left: 4rem;
+    color: navy;
+
+    
+}
+legend{
+    color: navy;
+}
+
+.index-legend{
+    font-size: larger;
+    /* background-color:rgba(0, 0, 255, 0.384); */
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+
+}
+.index-label-name{
+    font-weight: bold;
+}
+.index-input{
+    width: 20rem;
+    padding:4px;
+    border-radius: .5rem;
+}
+.submit{
+    right: 200rem;
+}
+.index-botton-container{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(96, 96, 238, 0.288);
+}
+.index-button-color{
+    background-color:rgba(18, 18, 168, 0.753) ;
+}
+.index-img-p{
+    display: grid;
+}
+.index-botton-color{
+    box-sizing: border-box;
+}
+button{
+margin: 1rem;
+background-color: navy;
+color: #fff;
+border: none;
+border-radius: .5rem;
+padding: .75rem;
+font-size: 1.2rem;
+}
+button:hover {
+    background-color: darkgreen;
+}
+  .index-img-p{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    gap: 5px;
+    width: 100%;
+}
+.index-img-container{
+    width:100%;
+}
+.index-img{
+    width:100%;
+    height: 100%;
+}
+/* this is for the trip page */
+.trip-img-p-con{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows:repeat(1,1fr);
+    gap: 1px;
+    width:100%;
+    background-color:rgba(23, 23, 158, 0.336); 
+    width: 100%;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+.trip-img-subcon{    
+    background-color:rgba(0, 0, 128, 0.185); 
+    padding-top: 2rem; 
+
+}
+.trip-img-con{
+    width: 20rem;
+    height:20rem ;
+
+
+}
+.trip-img-only{
+     /* background-color: #555;  */
+     display: flex;
+    justify-content: center;
+     
+}
+
+.fun-exp{
+    background-color: rgba(0, 0, 255, 0.356);
+    font-weight: bolder;
+    font-size: larger;
+    padding: 10px;
+}
+table{
+    border: 2px solid rgb(140 140 140);
+    width: 100%;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    height: 15rem;
+    border-collapse: collapse;
+    font-family: sans-serif;
+    
+}
+th,
+td{
+    text-align: center;
+    border: 1px solid rgb(41, 9, 71);
+    font-size: large;
+    
+}
+caption {   
+    caption-side: bottom; 
+    padding: 10px;
+    font-weight: bold;
+    background-color: rgba(0, 0, 255, 0.315);
+    font-size: large;
+    font-family: sans-serif;
+}
+.table{
+    padding: 4rem;
+    border:2rem;
+    font-size: large;
+    
+}
+thead{
+    background-color: rgba(0, 0, 255, 0.575);
 }
