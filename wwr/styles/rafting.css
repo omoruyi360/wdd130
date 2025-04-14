@@ -40,7 +40,7 @@ body{
 }
 .hero h1 {
     position: absolute;
-    color: var(--accent2-color);
+    color:rgba(255, 0, 0, 0.692);
     top: 5%;
     background-color: #f1eaea;
     left: 1px;
